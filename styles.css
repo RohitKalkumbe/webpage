@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+}
+
+.header{
+  text-align: center;
+  background: yellow;
+  
+  font-size: 40px;
+  font-weight: bold;
+}
+
+ footer>div
+ {
+  text-align: center;
+  background: yellow;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.menu{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  background: rgb(238, 233, 233);
+  text-align: right;
+
+}
+
+.menu>li
+{
+  display: inline;
+  margin-right: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
